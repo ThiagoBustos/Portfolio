@@ -32,14 +32,14 @@ a:hover{
 }
 section{
      width: 100%;
-     height: 1000px;
+     height: 500px;
      background-color: #373f59;
 }
 .imagem{
      background-color: white;
      width: 40vw;
      height: 100vh;
-     background-image: url(/imgs/imagem-foto.jpg);
+     background-image: url(../imgs/imagem-foto.jpg);
      background-size: cover;
      margin: 10px 4px;
      border: 5px solid rgba(135, 135, 135, 0.8);
@@ -49,7 +49,7 @@ section{
      margin-top: 6vh;
      margin-left: 2vw;
      width: 40vw;
-     height: 100vh;
+     height: 600px;
      display: inline-block;
      background-color: #687089;
      position: absolute;
@@ -67,4 +67,12 @@ h3{
 }
 h3 i{
      margin-top: 100px;
+}
+.galeria-de-imagens{
+     width: 88%;
+     background-color: antiquewhite;
+     max-height: 600px;
+     height: 550px;
+     max-width: 90%;
+     margin: 15% auto;
 }
